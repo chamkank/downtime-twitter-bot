@@ -7,7 +7,7 @@ CONSUMER_KEY = ''
 CONSUMER_SECRET = ''
 ACCESS_TOKEN = ''
 ACCESS_TOKEN_SECRET = ''
-WEBSITE = '' #url of website to monitor
+WEBSITE = '' # URL of website to monitor
 DOWNTIME_MESSAGE = "Our site is currently down at the moment. Thank you for your patience." #Tweet for when site goes down
 DOWNTIME_FINISHED_MESSAGE = "Our site is back up! Thanks again for your patience." #Tweet for when site comes back up
 
