@@ -5,7 +5,7 @@ Twitter bot that tweets when your site is down.
 
 Prior to usage, fill in values for the labelled constants in *bot.py*:
 
-- Twitter app authentication details:
+- Twitter app authentication details (if you don't have any you can register at [Twitter Developers](https://apps.twitter.com/)):
   - *CONSUMER_KEY*
   - *CONSUMER_SECRET*
   - *ACCESS_TOKEN*
