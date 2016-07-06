@@ -12,6 +12,7 @@ Requires that Python & tweepy is installed. Prior to usage, fill in values for t
   - *ACCESS_TOKEN_SECRET*
 - Bot specific: 
   - Website to monitor (*WEBSITE*)
+- Already defined, but can be changed:
   - Interval (in seconds) to check if site is up (*POLLING_TIME*)
   - Tweet to send when the website experiences downtime (*DOWNTIME_MESSAGE*)
   - Tweet to send when the website goes back up (*DOWNTIME_FINISHED_MESSAGE*).
