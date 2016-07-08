@@ -2,7 +2,7 @@ import urllib
 import time
 import tweepy
 
-# API details and tweet contents go here
+# Fill in API details and WEBSITE prior to running
 CONSUMER_KEY = ''
 CONSUMER_SECRET = ''
 ACCESS_TOKEN = ''
