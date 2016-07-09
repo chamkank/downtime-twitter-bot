@@ -3,7 +3,7 @@ Twitter bot that tweets when your site goes down and tweets again when your site
 
 # Setup & Usage
 
-Requires that Python & tweepy is installed. Prior to usage, fill in values for the labelled constants in *bot.py*:
+Requires that Python & tweepy are installed. Prior to usage, fill in values for the labelled constants in *bot.py*:
 
 - Twitter app authentication details (if you don't have any you can register at [Twitter Developers](https://apps.twitter.com/)):
   - *CONSUMER_KEY*
