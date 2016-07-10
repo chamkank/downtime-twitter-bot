@@ -17,4 +17,4 @@ Requires that Python & tweepy are installed. Prior to usage, fill in values for 
   - Tweet to send when the website experiences downtime (*DOWNTIME_MESSAGE*)
   - Tweet to send when the website goes back up (*DOWNTIME_FINISHED_MESSAGE*).
 
-The twitter bot will be active and polling every minute as long as *bot.py* is running. 
+The twitter bot will be active and polling every *POLLING_TIME* seconds (60 seconds by default) as long as *bot.py* is running. 
