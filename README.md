@@ -3,6 +3,7 @@ Twitter bot that tweets when your site goes down and tweets again when your site
 
 # Setup & Usage
 
+Requires that Python & tweepy are installed. Prior to usage, fill in the following values for the labelled constants in `bot.py`:
 
 - Twitter app authentication details (if you don't have any you can register at [Twitter Developers](https://apps.twitter.com/)):
   - *CONSUMER_KEY*
@@ -16,7 +17,7 @@ Twitter bot that tweets when your site goes down and tweets again when your site
   - Tweet to send when the website experiences downtime (*DOWNTIME_MESSAGE*)
   - Tweet to send when the website goes back up (*DOWNTIME_FINISHED_MESSAGE*).
 
-The twitter bot will be active and polling every *POLLING_TIME* seconds (60 seconds by default) as long as *bot.py* is running. 
+The twitter bot will be active and polling every *POLLING_TIME* seconds (60 seconds by default) as long as `bot.py` is running. 
 
 You may also change the polling time via command-line. Here are some examples:
 
